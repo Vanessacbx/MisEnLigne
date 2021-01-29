@@ -113,6 +113,8 @@ h2 {
 .first-div {
 color : #696969;
 text-align: center;
+justify-content: space-between;
+display: inline-block;
 font-size: 20px;
 }
 
@@ -144,7 +146,7 @@ font-size: 20px;
 
 
 .first-div-second {
-  display: flex;
+  display: block;
   justify-content: space-between;
   text-align: center; 
   color: #696969;
@@ -181,18 +183,24 @@ font-size: 20px;
 
 /* On screens that are 600px wide or less,  */
 @media screen and (max-width: 600px) {
-  .first-div-second a {
-    flex direction: column; 
-  }
+  
 
   .first-div-second img {
-    width: 100px; 
+    display: flex;
+    width: auto; 
+    height: auto;
   }
 
   .first-div-second p {
-    width: 100px; 
+    width: auto; 
+    text-align: center;
   }
-}
+
+.cards {
+    display: block;
+    width: 100rem;
+  }
+
 
 
 
