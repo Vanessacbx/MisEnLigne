@@ -43,7 +43,7 @@ h2 {
 }
 
 .card-element {
-  width: 30%;
+  width: 20%;
   background-size: cover;
   background-position: center;
   height: 200px;
@@ -132,7 +132,11 @@ font-size: 20px;
   text-shadow: 1px 1px 3px rgba(0,0,0,0);
   justify-content:center;
   text-align:center;
-  font-size: 40px; 
+  font-size: 17px; 
+  margin-top: -9px;
+  margin-bottom: 1rem;
+  padding-left: 0rem;
+
 
 }
 
@@ -141,7 +145,8 @@ font-size: 20px;
   text-shadow: 1px 1px 3px rgba(0,0,0,0);
   justify-content: center;
   text-align:center;
-  font-size: 17px; 
+  font-size: 17px;
+  
 }
 
 
@@ -187,7 +192,7 @@ font-size: 20px;
 
   .first-div-second img {
     display: flex;
-    width: auto; 
+    width: 320px; 
     height: auto;
   }
 
